@@ -6,7 +6,7 @@ from scapy.all import (
     IP, TCP, srp,
     sr1, conf,
 )
-from services.ports import target_ports
+from core.ports import target_ports
 
 class ScannerEngine:
     

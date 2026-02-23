@@ -3,7 +3,7 @@ import threading
 import customtkinter as ctk
 from utils.writer import writer
 from models.table import DatabaseManager
-from services.scann_engine import ScannerEngine
+from core.scann_engine import ScannerEngine
 from utils.color import get_color
 
 from interfaces.top_bar import TopBar
