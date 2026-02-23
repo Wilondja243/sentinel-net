@@ -38,15 +38,15 @@ git clone https://github.com/Wilondja243/sentinel-net.git
 cd SentinelNet
 
 3. Setup Virtual Environment
-Bash
 
 python3 -m venv gen_env
 source gen_env/bin/activate
 
 4. Install Dependencies
-Bash
 
 pip install scapy customtkinter psutil
+
+```
 
 🖥️ Usage
 
