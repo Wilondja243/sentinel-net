@@ -11,7 +11,6 @@ SentinelNet is a modern network auditing solution designed to simplify asset map
 * **Modern UX/UI**: Sleek "Dark Mode" interface with a "Typewriter" animation to follow real-time scan progress.
 * **Data Persistence**: Automatic logging of every scan into an `SQLite3` database for historical tracking.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -21,7 +20,6 @@ SentinelNet is a modern network auditing solution designed to simplify asset map
 * **System Discovery**: `Psutil` & `Socket` (Interface detection and hostname resolution)
 * **Database**: `SQLite3` (Lightweight local data storage)
 
----
 
 ## 📦 Installation
 
@@ -60,7 +58,6 @@ Bash
 ### 📂 Project Structure
 
 ```
-
 SentinelNet/
 ├── assets/
 ├── core/
