@@ -30,7 +30,7 @@ Since Scapy interacts with network layers, you may need to install certain depen
 
 ```
 git clone https://github.com/Wilondja243/sentinel-net.git
-cd SentinelNet
+cd sentinel-net
 
 ```
 
@@ -52,7 +52,6 @@ pip install scapy customtkinter psutil
 ### 🖥️ Usage
 
 To launch the application, run the main script (Note: Scapy requires root privileges to send raw packets on Linux):
-Bash
 
 
 ### 📂 Project Structure
