@@ -28,45 +28,38 @@ SentinelNet is a modern network auditing solution designed to simplify asset map
 ### 1. Prerequisites (Linux/Ubuntu)
 Since Scapy interacts with network layers, you may need to install certain dependencies:
 
+#### Clone the Project
+
 ```
-sudo apt update && sudo apt install python3-pip
-
-2. Clone the Project
-Bash
-
 git clone https://github.com/Wilondja243/sentinel-net.git
 cd SentinelNet
 
-3. Setup Virtual Environment
+```
 
+#### Setup Virtual Environment
+
+```
 python3 -m venv gen_env
 source gen_env/bin/activate
 
-4. Install Dependencies
+```
 
+#### Install Dependencies
+
+```
 pip install scapy customtkinter psutil
 
 ```
 
-🖥️ Usage
+### 🖥️ Usage
 
 To launch the application, run the main script (Note: Scapy requires root privileges to send raw packets on Linux):
 Bash
 
+
+### 📂 Project Structure
+
 ```
-
-sudo ./gen_env/bin/python main.py
-
-    Check the Network Badge at the top right to confirm your active interface (WIFI or CABLE).
-
-    Click the Central Button "Launch Audit" to start the sequence.
-
-    Monitor the Progress via the typewriter logs while the engine scans the subnet.
-
-    Review the Stats in the dashboard once the scan status shows "COMPLETED".
-
-📂 Project Structure
-Plaintext
 
 SentinelNet/
 ├── assets/
@@ -77,9 +70,12 @@ SentinelNet/
 ├── utils/
 └── main.py
 
-🛡️ Security & Responsibility
+```
+
+### 🛡️ Security & Responsibility
 
 This tool is intended for educational purposes and authorized security testing only. Scanning networks without prior authorization is illegal. The authors are not responsible for any misuse of this software.
-👥 Presentation Note
+
+### 👥 Presentation Note
 
 Developed for a university project, SentinelNet focuses on bridging the gap between complex low-level networking and intuitive visual design. It demonstrates how raw packet data can be transformed into actionable security insights.
