@@ -53,6 +53,8 @@ pip install scapy customtkinter psutil
 To launch the application, run the main script (Note: Scapy requires root privileges to send raw packets on Linux):
 Bash
 
+```
+
 sudo ./gen_env/bin/python main.py
 
     Check the Network Badge at the top right to confirm your active interface (WIFI or CABLE).
